@@ -1,6 +1,7 @@
 package cn.edu.xmu.javaee.dao;
 
 import cn.edu.xmu.javaee.E05Application;
+import cn.edu.xmu.javaee.core.exception.BusinessException;
 import cn.edu.xmu.javaee.dao.bo.Product;
 import cn.edu.xmu.javaee.dao.bo.User;
 import org.junit.jupiter.api.Test;
@@ -12,6 +13,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 /**
  * @author Suave
@@ -26,7 +28,7 @@ public class ProductDaoTest {
     public ProductDaoTest(ProductDao productDao) {this.productDao = productDao;}
 
     @Test
-    public void retrieveProductByName(){
+    public void retrieveProductByName1(){
         Long id =  1553L;
         String name = "欢乐家岭南杂果罐头";
         Long originalPrice = 3036L;
@@ -69,6 +71,12 @@ public class ProductDaoTest {
         assertThat(result.get(0).getModifier()).isEqualTo(modifier);
         assertThat(result.get(0).getGmtCreate()).isEqualTo(gmtCreate);
         assertThat(result.get(0).getGmtModified()).isEqualTo(gmtModified);
+    }
+
+    @Test
+    public void retrieveProductByName2(){
+        String name = "不存在的商品";
+        assertThrows(BusinessException.class, () -> {productDao.retrieveProductByName(name);});
     }
 
 }
