@@ -9,6 +9,7 @@ import cn.edu.xmu.javaee.util.CloneFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Repository;
 
@@ -43,7 +44,11 @@ public class OnSaleDao {
             Sort sort = Sort.by(Sort.Order.desc("endTime"));
             onSalePoList = onSaleMapper.findByProductIdEqualsAndBeginTimeBeforeAndEndTimeAfter(productId,now,now,sort);
             logger.debug("getLatestOnSale: onSalePoList = {}", onSalePoList);
-        }catch (BusinessException e){
+            if(onSalePoList.size() == 0){
+                throw new DataAccessException("未找到销售记录") {
+                };
+            }
+        }catch (DataAccessException e){
             logger.error(e.getMessage());
             throw new BusinessException(ReturnNo.INTERNAL_SERVER_ERR,"数据库访问错误");
         }

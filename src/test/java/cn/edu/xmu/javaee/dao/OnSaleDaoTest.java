@@ -1,6 +1,8 @@
 package cn.edu.xmu.javaee.dao;
 
 import cn.edu.xmu.javaee.E05Application;
+import cn.edu.xmu.javaee.core.exception.BusinessException;
+import cn.edu.xmu.javaee.core.model.ReturnNo;
 import cn.edu.xmu.javaee.dao.bo.OnSale;
 import cn.edu.xmu.javaee.dao.bo.User;
 import org.junit.jupiter.api.Test;
@@ -12,9 +14,11 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 /**
  * @author Suave
@@ -29,7 +33,7 @@ public class OnSaleDaoTest {
     public OnSaleDaoTest(OnSaleDao onSaleDao) {this.onSaleDao = onSaleDao;}
 
     @Test
-    public void getLatestOnSale(){
+    public void getLatestOnSale1(){
         Long productId = 1553L;
         List<OnSale> onSaleList = new ArrayList<>();
         OnSale onSale = OnSale.builder()
@@ -54,5 +58,9 @@ public class OnSaleDaoTest {
         assertThat(result).isEqualTo(onSaleList);
     }
 
-
+    @Test
+    public void getLatestOnSale2(){
+        Long productId = -1L;
+        assertThrows(BusinessException.class, () -> {onSaleDao.getLatestOnSale(productId);});
+    }
 }

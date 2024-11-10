@@ -11,6 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -49,7 +50,11 @@ public class ProductDao {
                 Product product = retrieveFullProduct(po);
                 productList.add(product);
             }
-        }catch (BusinessException e){
+            if(productList.size() == 0){
+                throw new DataAccessException("未找到商品") {
+                };
+            }
+        }catch (DataAccessException e){
             logger.error(e.getMessage());
             throw new BusinessException(ReturnNo.INTERNAL_SERVER_ERR, "数据库访问错误");
         }
@@ -85,7 +90,11 @@ public class ProductDao {
         try{
             productPoList = productMapper.findByGoodsIdEqualsAndIdNot(productPo.getGoodsId(),productPo.getId());
             logger.debug("retrieveOtherProducts: otherProductPoList = {}", productPoList);
-        }catch (BusinessException e){
+            if(productPoList.size() == 0){
+                throw new DataAccessException("未找到商品") {
+                };
+            }
+        }catch (DataAccessException e){
             logger.error(e.getMessage());
             throw new BusinessException(ReturnNo.INTERNAL_SERVER_ERR, "数据库访问错误");
         }
