@@ -29,13 +29,22 @@ public class ProductControllerTest {
     public ProductControllerTest(ProductService productService) {this.productService = productService;}
 
     private final String Get_PRODUCT_URL = "/products";
-    private final String PRODUCT_NAME = "欢乐家岭南杂果罐头";
+    private final String PRODUCT_NAME_SUCCESS = "欢乐家岭南杂果罐头";
+    private final String PRODUCT_NAME_FAIL = "不存在商品";
 
     @Test
-    public void searchProductByName() throws Exception {
-        mockMvc.perform(MockMvcRequestBuilders.get(Get_PRODUCT_URL).param("name", PRODUCT_NAME))
+    public void searchProductByName1() throws Exception {
+        mockMvc.perform(MockMvcRequestBuilders.get(Get_PRODUCT_URL).param("name", PRODUCT_NAME_SUCCESS))
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andExpect(MockMvcResultMatchers.content().contentType("application/json;charset=UTF-8"))
                 .andExpect(MockMvcResultMatchers.jsonPath("$.errno").value(ReturnNo.OK.getErrNo()));
+    }
+
+    @Test
+    public void searchProductByName2() throws Exception {
+        mockMvc.perform(MockMvcRequestBuilders.get(Get_PRODUCT_URL).param("name", PRODUCT_NAME_FAIL))
+                .andExpect(MockMvcResultMatchers.status().isInternalServerError())
+                .andExpect(MockMvcResultMatchers.content().contentType("application/json;charset=UTF-8"))
+                .andExpect(MockMvcResultMatchers.jsonPath("$.errno").value(ReturnNo.INTERNAL_SERVER_ERR.getErrNo()));
     }
 }
