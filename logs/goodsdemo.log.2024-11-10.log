@@ -95,3 +95,161 @@
 2024-11-10 14:07:16.209 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-11-10 14:07:16.209 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
 2024-11-10 14:07:16.225 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-11-10 14:41:27.097 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-10 14:41:27.153 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - Starting ProductControllerTest using Java 17.0.11 with PID 27292 (started by 85263 in D:\java-code\E05)
+2024-11-10 14:41:27.154 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-10 14:41:27.600 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-10 14:41:27.631 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2024-11-10 14:41:27.902 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.edu.xmu.javaee]' package. Please check your configuration.
+2024-11-10 14:41:28.296 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-10 14:41:28.343 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-10 14:41:28.374 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-10 14:41:28.644 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-10 14:41:28.708 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-11-10 14:41:29.626 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-10 14:41:29.626 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-10 14:41:30.212 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-10 14:41:30.405 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 14:41:30.820 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-10 14:41:31.402 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-10 14:41:31.402 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2024-11-10 14:41:31.417 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2024-11-10 14:41:31.417 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 15 ms
+2024-11-10 14:41:31.464 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - Started ProductControllerTest in 4.532 seconds (process running for 5.31)
+2024-11-10 14:41:31.977 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 14:41:31.977 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-11-10 14:41:31.977 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-11-10 14:44:04.843 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-10 14:44:04.881 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - Starting ProductControllerTest using Java 17.0.11 with PID 42472 (started by 85263 in D:\java-code\E05)
+2024-11-10 14:44:04.881 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-10 14:44:05.331 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-10 14:44:05.363 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2024-11-10 14:44:05.649 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.edu.xmu.javaee]' package. Please check your configuration.
+2024-11-10 14:44:06.059 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-10 14:44:06.106 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-10 14:44:06.140 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-10 14:44:06.420 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-10 14:44:06.484 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-11-10 14:44:07.518 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-10 14:44:07.518 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-10 14:44:08.125 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-10 14:44:08.322 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 14:44:08.767 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-10 14:44:09.398 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-10 14:44:09.398 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2024-11-10 14:44:09.398 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2024-11-10 14:44:09.414 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 16 ms
+2024-11-10 14:44:09.463 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - Started ProductControllerTest in 4.783 seconds (process running for 5.634)
+2024-11-10 14:44:10.456 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 14:44:10.474 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-11-10 14:44:10.474 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-11-10 14:45:08.964 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-10 14:45:08.985 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - Starting ProductControllerTest using Java 17.0.11 with PID 45224 (started by 85263 in D:\java-code\E05)
+2024-11-10 14:45:08.985 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-10 14:45:09.472 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-10 14:45:09.504 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2024-11-10 14:45:09.840 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.edu.xmu.javaee]' package. Please check your configuration.
+2024-11-10 14:45:10.303 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-10 14:45:10.334 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-10 14:45:10.365 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-10 14:45:10.683 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-10 14:45:10.743 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-11-10 14:45:11.610 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-10 14:45:11.610 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-10 14:45:12.145 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-10 14:45:12.309 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 14:45:12.810 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-10 14:45:13.564 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-10 14:45:13.564 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2024-11-10 14:45:13.580 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2024-11-10 14:45:13.595 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 31 ms
+2024-11-10 14:45:13.642 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - Started ProductControllerTest in 4.836 seconds (process running for 5.618)
+2024-11-10 14:45:14.634 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 14:45:14.634 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-11-10 14:45:14.634 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-11-10 14:45:54.575 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-10 14:45:54.602 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - Starting ProductControllerTest using Java 17.0.11 with PID 53348 (started by 85263 in D:\java-code\E05)
+2024-11-10 14:45:54.602 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-10 14:45:55.057 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-10 14:45:55.084 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2024-11-10 14:45:55.380 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.edu.xmu.javaee]' package. Please check your configuration.
+2024-11-10 14:45:55.782 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-10 14:45:55.822 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-10 14:45:55.849 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-10 14:45:56.125 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-10 14:45:56.192 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-11-10 14:45:57.148 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-10 14:45:57.149 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-10 14:45:57.694 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-10 14:45:57.870 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 14:45:58.341 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-10 14:45:58.997 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-10 14:45:58.997 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2024-11-10 14:45:59.004 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2024-11-10 14:45:59.027 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 28 ms
+2024-11-10 14:45:59.065 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - Started ProductControllerTest in 4.679 seconds (process running for 5.537)
+2024-11-10 14:46:00.062 [main] INFO  cn.edu.xmu.javaee.dao.OnSaleDaoTest - Starting OnSaleDaoTest using Java 17.0.11 with PID 53348 (started by 85263 in D:\java-code\E05)
+2024-11-10 14:46:00.062 [main] INFO  cn.edu.xmu.javaee.dao.OnSaleDaoTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-10 14:46:00.172 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-10 14:46:00.178 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 2 JPA repository interfaces.
+2024-11-10 14:46:00.245 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.edu.xmu.javaee]' package. Please check your configuration.
+2024-11-10 14:46:00.319 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-10 14:46:00.322 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-10 14:46:00.330 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-10 14:46:00.332 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2024-11-10 14:46:00.872 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-10 14:46:00.872 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-10 14:46:00.936 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-10 14:46:01.040 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 14:46:01.132 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-10 14:46:01.368 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2024-11-10 14:46:01.392 [main] INFO  cn.edu.xmu.javaee.dao.OnSaleDaoTest - Started OnSaleDaoTest in 1.353 seconds (process running for 7.863)
+2024-11-10 14:46:01.980 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 14:46:01.981 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-11-10 14:46:01.984 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-11-10 14:46:01.985 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 14:46:01.986 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2024-11-10 14:46:01.986 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2024-11-10 15:08:06.171 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-11-10 15:08:06.237 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - Starting ProductControllerTest using Java 17.0.11 with PID 32452 (started by 85263 in D:\java-code\E05)
+2024-11-10 15:08:06.238 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-10 15:08:06.913 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-10 15:08:06.962 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+2024-11-10 15:08:07.456 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.edu.xmu.javaee]' package. Please check your configuration.
+2024-11-10 15:08:08.061 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-10 15:08:08.141 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-10 15:08:08.200 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-10 15:08:08.653 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-10 15:08:08.775 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-11-10 15:08:09.865 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-10 15:08:09.866 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-10 15:08:10.778 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-10 15:08:10.999 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 15:08:11.613 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-10 15:08:12.452 [main] INFO  o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-10 15:08:12.453 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2024-11-10 15:08:12.462 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2024-11-10 15:08:12.480 [main] INFO  o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 25 ms
+2024-11-10 15:08:12.525 [main] INFO  c.edu.xmu.javaee.controller.ProductControllerTest - Started ProductControllerTest in 6.601 seconds (process running for 8.124)
+2024-11-10 15:08:13.684 [main] INFO  cn.edu.xmu.javaee.dao.OnSaleDaoTest - Starting OnSaleDaoTest using Java 17.0.11 with PID 32452 (started by 85263 in D:\java-code\E05)
+2024-11-10 15:08:13.684 [main] INFO  cn.edu.xmu.javaee.dao.OnSaleDaoTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-10 15:08:13.782 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-10 15:08:13.787 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+2024-11-10 15:08:13.854 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.edu.xmu.javaee]' package. Please check your configuration.
+2024-11-10 15:08:13.909 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-10 15:08:13.911 [main] INFO  o.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-10 15:08:13.918 [main] INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-10 15:08:13.919 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2024-11-10 15:08:14.411 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-10 15:08:14.411 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-10 15:08:14.500 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-10 15:08:14.595 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 15:08:14.747 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-10 15:08:15.070 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 14 endpoints beneath base path '/actuator'
+2024-11-10 15:08:15.091 [main] INFO  cn.edu.xmu.javaee.dao.OnSaleDaoTest - Started OnSaleDaoTest in 1.421 seconds (process running for 10.69)
+2024-11-10 15:08:16.162 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 15:08:16.164 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-11-10 15:08:16.168 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-11-10 15:08:16.171 [SpringApplicationShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-10 15:08:16.171 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2024-11-10 15:08:16.173 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed

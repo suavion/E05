@@ -84,6 +84,7 @@ public class ProductDao {
         List<ProductPo> productPoList = new ArrayList<>();
         try{
             productPoList = productMapper.findByGoodsIdEqualsAndIdNot(productPo.getGoodsId(),productPo.getId());
+            logger.debug("retrieveOtherProducts: otherProductPoList = {}", productPoList);
         }catch (BusinessException e){
             logger.error(e.getMessage());
             throw new BusinessException(ReturnNo.INTERNAL_SERVER_ERR, "数据库访问错误");

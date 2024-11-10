@@ -25,7 +25,7 @@ import static cn.edu.xmu.javaee.util.Common.changeHttpStatus;
  * @date 2024/11/8
  */
 @RestController
-@RequestMapping(value = "value = /products", produces = "application/json;charset=UTF-8")
+@RequestMapping(value = "/products", produces = "application/json;charset=UTF-8")
 public class ProductController {
 
     private ProductService productService;

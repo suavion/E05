@@ -42,6 +42,7 @@ public class OnSaleDao {
         try{
             Sort sort = Sort.by(Sort.Order.desc("endTime"));
             onSalePoList = onSaleMapper.findByProductIdEqualsAndBeginTimeBeforeAndEndTimeAfter(productId,now,now,sort);
+            logger.debug("getLatestOnSale: onSalePoList = {}", onSalePoList);
         }catch (BusinessException e){
             logger.error(e.getMessage());
             throw new BusinessException(ReturnNo.INTERNAL_SERVER_ERR,"数据库访问错误");

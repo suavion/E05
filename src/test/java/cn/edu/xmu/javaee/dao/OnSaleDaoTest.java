@@ -53,4 +53,6 @@ public class OnSaleDaoTest {
 //        返回销售列表与预期相同
         assertThat(result).isEqualTo(onSaleList);
     }
+
+
 }
