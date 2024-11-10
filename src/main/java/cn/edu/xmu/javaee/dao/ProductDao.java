@@ -75,7 +75,7 @@ public class ProductDao {
     }
 
     /**
-     * 检索其他商品
+     * 检索其他关联商品
      * @param productPo 商品po对象
      * @return 其他商品列表
      */
